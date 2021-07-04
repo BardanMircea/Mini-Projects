@@ -13,8 +13,8 @@ public class readingDifficulty {
 
         String sentence = scanner.nextLine();
         String[] words = sentence.toLowerCase().split(" ");
-        String[] consonants = {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"};
-        String[] vowels = {"a", "e", "i", "o", "u"};
+        String[] consonants = {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"};
+        String[] vowels = {"a", "e", "i", "o", "u", "y"};
         String[] specialPairs = {"ch", "ei", "ie"};
 
 
