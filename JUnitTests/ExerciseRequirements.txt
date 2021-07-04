@@ -1,0 +1,23 @@
+Note there are tests that fail, these will be fixed by going through the tasks.
+
+1. Implement validation for number of tokens so incorrectNumberOfTokensThrowsException from ExpressionParserTest passes. Note that this was already done in homework for exceptions, just duplicate the code. Notice the test passes only if the code throws ValidationException. This is because it is marked with @Test(expected = ValidationException.class).
+
+2. Switch to using enums instead of strings in StringExpression.
+
+Similar to how numbers are converted from strings to integers (in method readAsNumber). Create a method readAsBinaryOperator to convert from String to BinaryOperator and use it while parsing in StringExpression. To implement the method you can use BinaryOperator.values() and find which binary operator the symbol corresponds to. If no operator symbol is equal to the token, throw ValidationException.
+
+Implementing this should fix tests exampleExpressionWithEnum and incorrectOperanShouldThrowException from ExpressionParserTest. But it will break others. Fix only oneBinaryOperandTest for this task. Note that individual enums can be imported, not just classes, this is why this code compiles: Arrays.asList(8, DIVIDE, 2)
+
+3. Switch to using enums instead of strings in ExpressionParser.
+
+Note that after implementing the first task there is a test that fails in ExpressionIntegrationTest. This is an example of an integration test that verifies two components work together (spring parsing and evaluation). The test illustrates shortcomings in unit tests: If it did not exist, then unit test would pass, but the application would not work correctly.
+
+Code to evaluate based on enum was already implemented in the lab and is copied over in the project in ExpressionEvaluator. Make the correct cast so the enum version of evalBinary is used. You can then delete the other evalBinary that takes a String as operator.
+
+After making the changes, fix testSimpleAddition in ExpressionEvaluatorTest. All tests should now pass.
+
+4. Add additional tests.
+
+You can start by fixing tests that acre commented at the end of ExpressionParserTest. These were copied from ExpressionEvaluatorTest because they are parsing tests. Make the compile and pass by refactoring the code.
+
+Think of any other edge case scenarios.
