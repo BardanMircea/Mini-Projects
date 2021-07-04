@@ -1,4 +1,4 @@
-package OOP;
+package LibraryCatalog;
 
 public class Book {
     private String name;

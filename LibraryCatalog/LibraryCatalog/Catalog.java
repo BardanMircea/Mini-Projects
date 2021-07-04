@@ -1,4 +1,4 @@
-package OOP;
+package LibraryCatalog;
 
 
 import java.util.ArrayList;
@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Catalog {
 
     private final ArrayList<Book> books;
+    private CatalogHelper catalogHelper;
 
     public Catalog() {
         this.books = new ArrayList<>();
@@ -113,7 +114,7 @@ public class Catalog {
         this.books.add(book);
     }
 
-    public void addBookFromInput () {
+    private void addBookFromInput () {
         Scanner scanner = new Scanner(System.in);
 
         String novelOrAlbum = enterType(scanner);
@@ -492,20 +493,21 @@ public class Catalog {
                     String firstOrSecond = scanner.nextLine();
                     firstOrSecond = trimToLowerCase(firstOrSecond);
                     switch (firstOrSecond) {
-                        case "first":
+                        case "first" -> {
                             this.books.remove(list.get(0));
                             System.out.println("Entry deleted.");
                             return;
-                        case "second":
+                        }
+                        case "second" -> {
                             this.books.remove(list.get(1));
                             System.out.println("Entry deleted");
                             return;
-                        case "none":
+                        }
+                        case "none" -> {
                             System.out.println("Delete operation cancelled. Back to main menu.");
                             return;
-                        default:
-                            System.out.println("Unknown command [" + firstOrSecond + "]");
-                            break;
+                        }
+                        default -> System.out.println("Unknown command [" + firstOrSecond + "]");
                     }
                 }
             }
