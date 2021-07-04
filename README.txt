@@ -1,6 +1,6 @@
 # Exercises
 
-First exercise:
+1. Reading Difficulty Calculator exercise:
 
 Write a program that evaluates the difficulty of reading a sentence in English.
 
