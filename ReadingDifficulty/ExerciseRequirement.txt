@@ -1,4 +1,5 @@
 Write a program that evaluates the difficulty of reading a sentence in English.
+
 Things that make words hard to read are:
 - Occurrences of "ch", "ei", "ie" (ex. "ei" in "Receive")
 - More than two vowels in a row (ex. "uai" in "Acquaintance")
