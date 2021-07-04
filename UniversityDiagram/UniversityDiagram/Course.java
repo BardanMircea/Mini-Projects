@@ -2,7 +2,7 @@ package UniversityDiagram;
 
 import java.util.ArrayList;
 
-public class Course implements printable {
+public class Course implements Printable {
     String courseName;
     Professor tenuredProfessor;
     ArrayList<Professor> assistantProfessors;

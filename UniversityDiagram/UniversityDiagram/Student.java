@@ -3,7 +3,7 @@ package UniversityDiagram;
 import java.util.ArrayList;
 
 
-public class Student extends Person implements printable{
+public class Student extends Person implements Printable {
     private String studentIdNumber;
     private String group;
     private String year;

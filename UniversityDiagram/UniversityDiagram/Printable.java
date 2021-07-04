@@ -2,7 +2,7 @@ package UniversityDiagram;
 
 import java.util.ArrayList;
 
-public interface printable {
+public interface Printable {
 
     void printSchedule(ArrayList<String> schedule);
 }

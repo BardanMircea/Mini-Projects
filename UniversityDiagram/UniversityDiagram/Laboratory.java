@@ -3,7 +3,7 @@ package UniversityDiagram;
 
 import java.util.ArrayList;
 
-public class Laboratory extends Room implements printable {
+public class Laboratory extends Room implements Printable {
     private String laboratoryType;
 
 

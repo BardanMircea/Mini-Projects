@@ -3,7 +3,7 @@ package UniversityDiagram;
 import java.util.ArrayList;
 
 
-public class Faculty implements printable {
+public class Faculty implements Printable {
     private String name;
     private String address;
 
