@@ -1,0 +1,7 @@
+Model a management application for a university
+Create the class structure for entities in university diagram, except institution section. 
+Write the structure in java code with relations between classes (inheritance/composition).
+
+Add properties with the goal of computing and maintaining a schedule. Add additional classes if necessary. 
+The program should (in theory) be able to generate a schedule based on existing relations as well as list the schedule for entities involved (room, student, professor, course). 
+Note you do not have to implement the generation and listing, just think of what information is needed and add fields to appropriate classes.
