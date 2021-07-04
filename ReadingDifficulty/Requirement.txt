@@ -1,0 +1,24 @@
+Write a program that evaluates the difficulty of reading a sentence in English.
+Things that make words hard to read are:
+- Occurrences of "ch", "ei", "ie" (ex. "ei" in "Receive")
+- More than two vowels in a row (ex. "uai" in "Acquaintance")
+- Double consonants (ex. "mm" and "tt" in "Committee")
+In addition, sentences are hard to read if such words are close to each other.
+
+Calculate a score for a sentence using the following rules:
+- 1 point for each string that makes a word hard to read
+- 2 points for each pair of words that have difficult to read strings
+- 1 point for two words that have difficult to read strings and are separated by one other word
+
+Try to use functions where appropriate. Ex. isVowelSequence, isDoubleConsonant, countDifficultStrings
+
+Examples:
+
+My acquaintance addresses the committee
+Score from each word: 0 + 1 + 2 + 0 + 2 = 5
+Score from sentence: 2 (acquaintance addresses) + 1 (addresses the committee)
+Final score: 5 + 3 = 8
+
+We perceive the quay's occasional accessibility as an issue
+Note: "quay's" is considered a word
+Score: 0 + 1 + 0 + 1 + 1 + 2 + 0 + 0 + 1 (from words) + 1+1 + 2 + 2 (from sentence) = 12
