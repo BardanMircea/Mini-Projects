@@ -1,0 +1,29 @@
+Improve House Applicance
+
+
+Correctly implement SimpleHouse.getLoadInWatts(PowerSource)
+As it's name suggests this method should return the current load of a power source. Technically this is the sum of power consumption for all appliances that are connected to said power source.
+To check if an appliance is connected to a power source you must first check if it is a PowerConsumer using the instanceOf operator.
+Then you can check which power source a consumer is connected to by comparing the name of the power source.
+For example, in the initial setup of House, if this is implemented correctly, then switching the vacuum cleaner on/off should increase/decrease the load on "Grid" power source.
+
+Implement switchOnAllLights and switchOffAllLights from SimpleHouse.
+These methods should check all the appliances to see which one is a Light (with instanceOf) and call on/off appropriately.
+
+Create a new class called Refrigerator.
+This should be an Applicance and a PowerConsumer. Refrigerators can not be switched off, thus it will not implement Switchable.
+It should have a field called targetTemperature, and methods like colder() and warmer() to decrease and increase target temperature by 0.5 degree.
+Initial target temperature should be 8 degrees. The refrigerator should consume 15 watts for every degree colder than 20 degrees (initially it will consume 4 * (20 - 8) = 180 watts).
+Implement/generate toString. Create one refrigerator, add it to the house and connect it to solar power source.
+
+Create a method "public void switchAllToGrid()" on SimpleHouse.
+This should change the power source of all power consumers to Grid.
+Initially you can implement this by simply switching to the first power source.
+Then you can implement a method "PowerSource findPowerSourceByName(String name)" and switch to the one named "Grid".
+
+Create a method "public void switchOffGrid()" on SimpleHouse.
+This should disconnect all power consumers connected to grid, and connect them to another if possible.
+"If possible" means that the new power source to connect to should not be overloaded after connecting the power consumer.
+"Overloaded" means the total load would be greater that it's maximum power.
+First try to connect a power consumer to "Solar", if that would be overloaded then try "Battery", if that would also be overloaded then leave the consumer disconnected.
+
