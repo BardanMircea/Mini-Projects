@@ -1,0 +1,29 @@
+Phone Book application
+
+You are to design a class called PhoneBook that uses an ArrayList to store a collection of contacts. 
+Start by designing the Contact class that holds a person’s last name, first name, home address and phone number. Address should be a separate class, with several properties: Country, City,  Street
+Note: the Contact class should override the “toString()” method
+Note: the phone number is a String which has 12 characters (“0720123123”)
+Next design the PhoneBook class that uses an ArrayList of parameter type Contact:
+
+Sample: public class PhoneBook
+{
+private ArrayList<Contact> list;
+
+//rest of the code
+}
+
+The PhoneBook class should have the following methods:
+1.       add a contact
+2.       display all contacts
+3.       search for a specific contact and display it
+4.       search and delete a specific contact.
+
+With regards to the search methods consider the following:  For example, if “Ana” (or “ana”) is the search target, then any contact where Ana/ana matches the first name or the last name should be displayed. Similarly, if “0720123” is the search target, all contacts having this number should be displayed.
+
+Sample:
+“Following contact(s) matches your search:
+1.       ANA Lastname1 …. +40720-255-252
+Address: str Palat, United Bussines Center 1, 3E, Iasi
+2.       ANA Lastname2 …. +40720-254-253
+Address: str Palat, United Bussines Center 2, 3E, Iasi”
