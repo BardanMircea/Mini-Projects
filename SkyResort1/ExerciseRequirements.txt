@@ -1,0 +1,27 @@
+Design a system to emit and charge cards for a sky lift system for a mountain resort (create classes with fields).
+
+A card has a unique serial number, a number of points and an owner.
+An owner should be a registered customer. The only mandatory data for a customer is an email address.
+The resort has several sky lifts, each requires a different number of points to be used.
+
+Implement behavior for the system, it should be possible to:
+Emit a card.
+- A card has an initial number of points. There customer can choose between 5, 10, 15, 25 and 50 points.
+- The customer can be a previously registered or a new one.
+- If the customer is registered, points from the previous card he returned will be added to the new card.
+- A customer can own only one card at a time.
+
+Top-up a card.
+- Additional points can be added to a card after it was emitted. The choice of points to add is the same as for a new card. There is no limit on the number of times a card can be topped-up.
+
+Return a card. 
+- For a customer, points that are not used will need to be added when emitting a new card.
+- Returned cards can no longer be used at lifts.
+
+Use a card for a lift.
+- The points required to use the lift are deducted from the card.
+
+
+Notes
+- User interactivity is optional (console). The main method can call methods directly with data for predefined scenarios. But objects should implement toString() so the state of the system can be printed.
+- Each behavior should be one or two methods, ex. Resort.returnCard(String cardId, LocalDate day)
