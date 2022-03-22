@@ -1,4 +1,4 @@
-package SkyResort;
+package SkiResort;
 
 public class RegisteredCustomer extends Customer {
     private String emailAddress;
@@ -33,9 +33,9 @@ public class RegisteredCustomer extends Customer {
         return card.active;
     }
 
-    public void useCardForALift(SkyLift skyLift) {
+    public void useCardForALift(SkiLift skiLift) {
         if (ownsValidCard()){
-            card.setPoints(card.getPoints() - skyLift.getCost());
+            card.setPoints(card.getPoints() - skiLift.getCost());
             return;
         }
         System.out.println("SkyResort.Card has been returned and is no longer active.");
@@ -51,7 +51,7 @@ public class RegisteredCustomer extends Customer {
 
     @Override
     public String toString() {
-        return "SkyResort.RegisteredCustomer{" +
+        return "SkiResort.RegisteredCustomer{" +
                 "emailAddress='" + emailAddress + '\'' +
                 ", card=" + card +
                 '}';

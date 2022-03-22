@@ -1,5 +1,7 @@
 package LibraryCatalog;
 
+import java.util.Objects;
+
 public class Book {
     private String name;
     private int numberOfPages;

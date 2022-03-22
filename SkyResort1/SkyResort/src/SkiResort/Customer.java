@@ -1,4 +1,4 @@
-package SkyResort;
+package SkiResort;
 
 public class Customer {
 
@@ -21,7 +21,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "SkyResort.Customer{" +
+        return "SkiResort.Customer{" +
                 "name='" + name + '\'' +
                 ", sex='" + sex + '\'' +
                 ", age=" + age +

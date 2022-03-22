@@ -1,4 +1,4 @@
-package SkyResort;
+package SkiResort;
 
 public class Card {
     private static int serialNumber;
@@ -51,7 +51,7 @@ public class Card {
 
     @Override
     public String toString() {
-        return "SkyResort.Card{" +
+        return "SkiResort.Card{" +
                 "serialNumber=" + serialNumber +
                 ", points=" + points +
                 ", owner=" + owner +

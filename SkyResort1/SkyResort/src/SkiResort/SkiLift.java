@@ -1,10 +1,10 @@
-package SkyResort;
+package SkiResort;
 
-public class SkyLift {
+public class SkiLift {
 
      private int cost;
 
-     public SkyLift(int cost) {
+     public SkiLift(int cost) {
          this.cost = cost;
      }
 
@@ -18,7 +18,7 @@ public class SkyLift {
 
     @Override
     public String toString() {
-        return "SkyResort.SkyLift{" +
+        return "SkiResort.SkiLift{" +
                 "cost=" + cost +
                 '}';
     }

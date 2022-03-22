@@ -1,5 +1,9 @@
 package LibraryCatalog;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class LibraryCatalog {
 
     public static void main(String[] args) {
@@ -17,6 +21,21 @@ public class LibraryCatalog {
         catalog.addBookFromMain(anotherAlbum);
 
 
-        catalog.openCatalog();
+//        catalog.openCatalog();
+
+//        List<Book> books = new ArrayList();
+//        books.add(new Novel("  The Master and MARGARITA", 392, "fantastic fICTION   "));
+//        books.add(new Novel("Quo Vadis", 589, "historical novel"));
+//        books.add(new Novel("Quo Vadis", 589, "historical novel"));
+//        books.add(new Novel("Quo Vadis", 589, "historical novel"));
+//        books.stream().filter(book -> book.getName().startsWith("Q")).forEach(System.out::println);
+
+        try {
+            throw new RuntimeException();
+        } catch (Error error) {
+            System.out.println("error");
+        } finally {
+            System.out.println("finally");
+        }
     }
 }

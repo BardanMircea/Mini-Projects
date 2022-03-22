@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Catalog {
 
     private final ArrayList<Book> books;
-    private CatalogHelper catalogHelper;
 
     public Catalog() {
         this.books = new ArrayList<>();

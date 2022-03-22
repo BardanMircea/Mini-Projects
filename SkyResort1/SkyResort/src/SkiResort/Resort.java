@@ -1,4 +1,4 @@
-package SkyResort;
+package SkiResort;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,15 +6,15 @@ import java.util.List;
 public class Resort {
 
     List<RegisteredCustomer> registeredCustomers = new ArrayList<>();
-    List<SkyLift> skyLifts = new ArrayList<>();
+    List<SkiLift> skiLifts = new ArrayList<>();
 
 
-    public void addSkyLift(SkyLift skyLift) {
-        skyLifts.add(skyLift);
+    public void addSkyLift(SkiLift skiLift) {
+        skiLifts.add(skiLift);
     }
 
-    public List<SkyLift> getSkiLifts() {
-        return skyLifts;
+    public List<SkiLift> getSkiLifts() {
+        return skiLifts;
     }
 
     public RegisteredCustomer registerAndGetYourFirstCard(Customer customer, int points) {
@@ -51,9 +51,9 @@ public class Resort {
 
     @Override
     public String toString() {
-        return "SkyResort.Resort{" +
+        return "SkiResort.Resort{" +
                 "registeredCustomers=" + registeredCustomers +
-                ", skyLifts=" + skyLifts +
+                ", skiLifts=" + skiLifts +
                 '}';
     }
 }

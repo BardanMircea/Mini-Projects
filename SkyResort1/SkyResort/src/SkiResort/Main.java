@@ -1,11 +1,11 @@
-package SkyResort;
+package SkiResort;
 
 public class Main {
     public static void main(String[] args) {
         Resort resort = new Resort();
 
-        SkyLift skyLift = new SkyLift(3);
-        resort.addSkyLift(skyLift);
+        SkiLift skiLift = new SkiLift(3);
+        resort.addSkyLift(skiLift);
 
 
         Customer customer1 = new Customer("Ana");
@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println(registeredCustomer1.getCard().getPoints());
 
-        registeredCustomer1.useCardForALift(skyLift);
+        registeredCustomer1.useCardForALift(skiLift);
         System.out.println(registeredCustomer1.getCard().getPoints());
 
         registeredCustomer1.topUpCard(10);
