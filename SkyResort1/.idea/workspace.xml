@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03ed824c-231d-4e47-af75-9b340bd141d4" name="Default Changelist" comment="*">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExerciseRequirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/SkiResort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/out/production/SkiResort/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/out/production/SkiResort/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/out/production/SkiResort/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/out/production/SkiResort/RegisteredCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/out/production/SkiResort/Resort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/out/production/SkiResort/SkyLift.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/out/production/SkiResort/ValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/src/SkiResort/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/src/SkiResort/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/src/SkiResort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/src/SkiResort/RegisteredCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/src/SkiResort/Resort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/src/SkiResort/SkiLift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort/src/SkiResort/ValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkiResort1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SkiResort1/SkiResort/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SkiResort1/SkiResort/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SkiResort1/SkiResort/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SkiResort1/SkiResort/RegisteredCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SkiResort1/SkiResort/Resort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SkiResort1/SkiResort/ValidationException.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1urUpLmmuC8f7OeE4VhEBTzyTPD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SkiResort1" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="SkyResort" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkiResort.Main" />
+      <module name="SkiResort1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkiResort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03ed824c-231d-4e47-af75-9b340bd141d4" name="Default Changelist" comment="" />
+      <created>1625423383234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625423383234</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Replaced some terminology">
+      <created>1647943464336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647943464336</updated>
+    </task>
+    <task id="LOCAL-00002" summary="*">
+      <created>1647943765242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647943765242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Replaced some terminology" />
+    <MESSAGE value="*" />
+    <option name="LAST_COMMIT_MESSAGE" value="*" />
+  </component>
+</project>
