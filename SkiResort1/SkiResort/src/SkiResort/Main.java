@@ -5,7 +5,7 @@ public class Main {
         Resort resort = new Resort();
 
         SkiLift skiLift = new SkiLift(3);
-        resort.addSkyLift(skiLift);
+        resort.addSkiLift(skiLift);
 
 
         Customer customer1 = new Customer("Ana");

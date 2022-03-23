@@ -9,7 +9,7 @@ public class Resort {
     List<SkiLift> skiLifts = new ArrayList<>();
 
 
-    public void addSkyLift(SkiLift skiLift) {
+    public void addSkiLift(SkiLift skiLift) {
         skiLifts.add(skiLift);
     }
 
