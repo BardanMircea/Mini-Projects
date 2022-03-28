@@ -1,1 +1,1 @@
-# Exercises
+# Mini-Projects
